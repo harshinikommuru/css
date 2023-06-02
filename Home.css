@@ -1,0 +1,116 @@
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #005baa;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main section */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #0077c2;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #0060a6;
+}
+
+/* Footer */
+footer {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to bottom, #0072c6, #00a9e0);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to top, #0072c6, #00a9e0);
+}
+
+/* Body */
+
+
+.ind {
+  background-image: url('pic5.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color:black;
+}

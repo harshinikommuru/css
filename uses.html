@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI and New Inventions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;color:black;background-color: lightseagreen;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    .country-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .country-list li {
+      margin-bottom: 10px;
+    }
+    .country-list li a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .country-details {
+      display: none;
+      margin-top: 10px;
+    }
+  </style>
+  <script>
+    // JavaScript code to handle button click and show/hide country details
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var aiButton = document.getElementById("ai-button");
+      var countryLinks = document.getElementsByClassName("country-link");
+      var countryDetails = document.getElementsByClassName("country-details");
+
+      // Event listener for AI button click
+      aiButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        // TODO: Handle AI button click action
+        console.log("AI button clicked!");
+      });
+
+      // Event listener for country links
+      Array.prototype.forEach.call(countryLinks, function(link) {
+        link.addEventListener("click", function(event) {
+          event.preventDefault();
+          var country = this.getAttribute("data-country");
+          var countryDetailElement = document.getElementById("country-details-" + country);
+
+          // Hide all country details
+          Array.prototype.forEach.call(countryDetails, function(detail) {
+            detail.style.display = "none";
+          });
+
+          // Show selected country detail
+          countryDetailElement.style.display = "block";
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>AI and New Inventions</h1>
+    <p>Welcome to our website! Here you can explore information about AI technology and new inventions of India.</p>
+    <a href="#" class="button" id="ai-button">AI Technology</a>
+    <h2>New Inventions by Country</h2>
+    <ul class="country">
+      <li><a href="#" class="country-link" data-country="in">1)India</a></li>
+      </ul>
+   <div id="country-details-in" class="country-details">
+      <h3>India</h3>
+      <p>Information about new inventions in India.However, India has been actively involved in the development and implementation of various AI technologies. Some notable advancements in AI in India include:</p>
+
+<p>AI in Healthcare: AI has been used in India to improve healthcare delivery, including diagnosis, treatment, and disease monitoring. AI-powered tools are being developed to analyze medical images, predict disease outcomes, and enhance telemedicine services.</p>
+
+<p>Agriculture and Farming: AI is being applied in Indian agriculture to optimize crop yield, monitor soil health, and provide targeted recommendations for irrigation and pest control. Startups in India are developing AI-powered platforms to assist farmers in making informed decisions.</p>
+
+<p>Smart Cities: Indian cities are exploring AI solutions to improve infrastructure, transportation, and urban planning. Initiatives include AI-powered traffic management systems, smart surveillance, and waste management optimization.</p>
+
+<p>Education: AI is being integrated into educational institutions in India to enhance personalized learning experiences. AI-based platforms are being developed to provide adaptive learning, intelligent tutoring, and student assessment tools.</p>
+
+<p>Finance and Banking: Indian financial institutions are adopting AI technologies for fraud detection, risk assessment, and customer service. Chatbots and virtual assistants are being deployed to provide quick and efficient customer support.</p>
+    </div>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yoga Website</title>
+</head>
+<body>
+  <h1>2)Welcome to the Yoga </h1>
+  
+  <p>Experience the art of yoga and find your inner peace. Our website offers a variety of yoga practices and resources to enhance your well-being.</p>
+  
+  
+  
+  <h2>About Yoga</h2>
+  
+  <p>Yoga is a physical, mental, and spiritual discipline that originated in ancient India. It involves a combination of physical postures, breathing exercises, meditation, and ethical principles.Yoga is a holistic practice that originated in ancient India and has been evolving for thousands of years. It combines physical postures (asanas), breathing techniques (pranayama), meditation, and ethical principles to promote overall well-being and harmony. The purpose of yoga goes beyond just physical exercise, encompassing mental, emotional, and spiritual aspects of life. Here are some of the benefits and purposes of practicing yoga:
+
+Physical Fitness: Yoga helps improve flexibility, strength, and balance. The various postures and movements stretch and tone the muscles, increase joint mobility, and enhance overall body awareness and control.
+
+Stress Reduction: Yoga incorporates deep breathing and relaxation techniques that activate the parasympathetic nervous system, promoting relaxation and reducing stress levels. Regular practice can help manage anxiety, improve sleep quality, and enhance overall mental well-being.
+
+Mind-Body Connection: Yoga emphasizes the connection between the mind and body. By focusing on the breath and being present in the moment, practitioners cultivate mindfulness and develop a greater awareness of their physical sensations, thoughts, and emotions.
+
+Emotional Well-being: Yoga can have a positive impact on emotional health by reducing symptoms of depression and promoting a sense of calmness and contentment. It encourages self-reflection, self-acceptance, and self-compassion.
+
+Improved Concentration and Mental Clarity: The practice of yoga involves concentration and meditation techniques that enhance mental focus, clarity, and memory. Regular practice can help improve cognitive function and increase productivity.
+
+Increased Energy and Vitality: Yoga stimulates the flow of energy in the body, promoting vitality and a sense of rejuvenation. Through specific breathing exercises and postures, practitioners can activate and balance their energy centers, known as chakras.
+
+Posture and Alignment: Yoga postures promote proper body alignment, which can help improve posture and alleviate musculoskeletal issues caused by sedentary lifestyles or repetitive movements.
+
+Inner Peace and Spiritual Growth: Yoga is rooted in spiritual traditions, and for many, it serves as a means of self-discovery and spiritual growth. By exploring deeper aspects of the self through meditation and introspection, practitioners may experience a sense of inner peace, connectedness, and a deeper understanding of their purpose in life.
+
+The usage of yoga varies from person to person. Some individuals incorporate yoga as part of their daily routine for overall well-being, while others use it to target specific health concerns. Yoga can be practiced in various settings, including yoga studios, gyms, community centers, or even at home through online classes or personal practice. It is important to learn yoga from qualified instructors who can guide you safely through the postures and techniques, especially if you're a beginner.</p>
+  
+  <h2>Learn More</h2>
+ <style>
+    .container {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    
+    .details {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #f0f0f0;
+    }
+  </style>
+  <script>
+    function toggleDetails(containerId) {
+      var details = document.getElementById(containerId).querySelector('.details');
+      details.style.display = details.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+</head>
+<body style="background-color:lightsteelblue;">
+  <div class="container" id="container1" onclick="toggleDetails('container1')">
+    <h2>Container 1</h2>
+    <div class="details">
+      <p>yoga Master Name:Mr.Erramreddy Gopalareddy,Rebala Village Buchireddypalem Mandal,Sri Potti Sriramulu Nellore District, Andhra Pradesh phone:08622-272189,9441215240</p>
+    </div>
+  </div>
+  
+  
+</body>
+<a href="latest.html"><button href="Square"style="color:white;background-color:green;border-style:solid;">NEXT</button>
+ </a>
+ </a>
+    <a href="index.html"><button href="Square"style="color:white;background-color:green;border-style:solid;">BACK</button>
+ </a>
+ </a>
+
+</html>
